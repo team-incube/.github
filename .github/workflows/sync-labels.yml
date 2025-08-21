@@ -1,0 +1,23 @@
+name: Sync labels
+
+on:
+  workflow_dispatch:   # 수동 실행
+  push:
+    paths:
+      - "labels.json"  # labels.json 바뀔 때 자동 실행
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync labels
+        uses: EndBug/label-sync@v2
+        with:
+          config-file: labels.json
+          repo-token: ${{ secrets.ORG_LABEL_TOKEN }}
+          delete-other-labels: false
+          repositories: |
+            team-incube/test
