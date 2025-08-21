@@ -1,4 +1,5 @@
 name: Sync labels Across Team-Incube
+# desc: workflow에 정의된 레포에 기본 라벨 추가
 
 on:
   workflow_dispatch:   # 수동 실행
