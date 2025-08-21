@@ -2,7 +2,7 @@
 name: Bug Report
 about: 애플리케이션에 문제가 생겼을 때 사용하는 이슈
 title: "[BUG]"
-labels: ''
+labels: "\U0001F40C Issue: Bug"
 assignees: ''
 
 ---

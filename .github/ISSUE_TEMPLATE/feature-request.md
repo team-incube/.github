@@ -2,7 +2,7 @@
 name: Feature Request
 about: 애플리케이션에 기능을 추가할 때 사용하는 이슈
 title: "[Task]"
-labels: ''
+labels: "\U0001F4CE Issue: Feature Request"
 assignees: ''
 
 ---
