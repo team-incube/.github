@@ -1,0 +1,89 @@
+[
+  {
+    "color": "b60205",
+    "description": "정상 동작하지 않는 UI",
+    "name": "🪳 Type: Bug/UI"
+  },
+  {
+    "color": "b15a89",
+    "description": "질문 사항이 있을 때",
+    "name": "❓ Type: Question"
+  },
+  { "color": "7fe6df", "description": "릴리즈", "name": "🪽 Type: Release" },
+  {
+    "color": "159dd7",
+    "description": "새로운 기능 및 개선 사항",
+    "name": "📩 Type: Feature/Function"
+  },
+  {
+    "color": "d1ffbd",
+    "description": "처리해야 되는 이슈",
+    "name": "🌟 Status: To Do"
+  },
+  {
+    "color": "d4c5f9",
+    "description": "되돌린 상태",
+    "name": "🙅🏻‍♀️ Status: Reverted"
+  },
+  {
+    "color": "104c35",
+    "description": "리뷰까지 완료된 이슈",
+    "name": "🌟 Status: Done"
+  },
+  {
+    "color": "FFC0CB",
+    "description": "우선순위 하",
+    "name": "⚠️ Priority: Low"
+  },
+  {
+    "color": "FF6961",
+    "description": "우선순위 중",
+    "name": "⚠️  Priority: Medium"
+  },
+  {
+    "color": "E55B13",
+    "description": "우선순위 상",
+    "name": "⚠️ Priority: High"
+  },
+  {
+    "color": "FF0000",
+    "description": "우선순위 긴급",
+    "name": "⚠️ Priority: Critical"
+  },
+  {
+    "color": "1d76db",
+    "description": "문서 추가 및 보완 작업",
+    "name": "📜 Type: Feature/Document"
+  },
+  {
+    "color": "e76ac6",
+    "description": "정상 동작하지 않는 기능",
+    "name": "🐞 Type: Bug/Function"
+  },
+  {
+    "color": "b2d886",
+    "description": "리뷰 중인 이슈",
+    "name": "🌟 Status: Reviewing"
+  },
+  {
+    "color": "6bc466",
+    "description": "보류 중인 이슈",
+    "name": "🌟 Status: Pending"
+  },
+  {
+    "color": "22862b",
+    "description": "처리 중인 이슈",
+    "name": "🌟 Status: in Progress"
+  },
+  { "color": "14397d", "description": "퍼블리싱", "name": "🐋 Type: Publish" },
+  {
+    "color": "b60205",
+    "description": "버그가 발생한 이슈",
+    "name": "🐌 Issue: Bug"
+  },
+  {
+    "color": "bfdadc",
+    "description": "기능 요청 이슈",
+    "name": "📎 Issue: Feature Request"
+  }
+]
