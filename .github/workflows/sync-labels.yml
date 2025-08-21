@@ -1,4 +1,4 @@
-name: Sync labels
+name: Sync labels Across Team-Incube
 
 on:
   workflow_dispatch:   # 수동 실행
