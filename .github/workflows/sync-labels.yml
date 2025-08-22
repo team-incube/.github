@@ -2,21 +2,18 @@ name: Sync labels Across Team-Incube
 # desc: workflow에 정의된 레포에 기본 라벨 추가
 
 on:
-  workflow_dispatch:   # 수동 실행
-  push:
-    paths:
-      - "labels.json"  # labels.json 바뀔 때 자동 실행
+  workflow_call:
+      secrets:
+        org_label_token:
+          required: true
 
 jobs:
   sync-labels:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Sync labels
         uses: EndBug/label-sync@v1
         with:
-          token: ${{ secrets.ORG_LABEL_TOKEN }}
+          token: ${{ secrets.org_label_token }}
           delete-other-labels: false
           source-repo: team-incube/.github
