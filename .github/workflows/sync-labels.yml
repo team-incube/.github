@@ -17,8 +17,6 @@ jobs:
       - name: Sync labels
         uses: EndBug/label-sync@v1
         with:
-          config-file: labels.json
           token: ${{ secrets.ORG_LABEL_TOKEN }}
           delete-other-labels: false
-          source-repo: |
-            team-incube/test
+          source-repo: team-incube/.github
