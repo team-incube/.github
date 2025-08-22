@@ -7,7 +7,7 @@
   {
     "color": "b15a89",
     "description": "질문 사항이 있을 때",
-    "name": "❓ Type: Question"
+    "name": "❓ Issue: Question"
   },
   { "color": "7fe6df", "description": "릴리즈", "name": "🪽 Type: Release" },
   {
